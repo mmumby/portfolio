@@ -1,0 +1,54 @@
+.header-background {
+  background-color: transparent;
+  background: #e8e7e3 url("./img/plant.jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 690px;
+  width: 100%;
+  position: relative;
+}
+
+.greeting {
+  color: #eb9a4b;
+  font-size: larger;
+}
+
+.header-greeting {
+  width: 100%;
+  margin-top: 400px;
+  margin-left: 400px;
+  position: absolute;
+}
+
+.header-nav li {
+  float: right;
+  background-color: #eb994c;
+  border-radius: 5px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+#links {
+  position: absolute;
+}
+
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header-nav li a:hover {
+  background-color: #eb994c;
+  border-radius: 5px;
+  color: white;
+}

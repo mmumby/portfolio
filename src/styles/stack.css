@@ -1,0 +1,35 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.skillstack {
+  background: white url("./img/laptop.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+}
+
+.skillstack li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+
+ .skillstack ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 140px;
+}
+
+.skillstack a {
+  text-align: center;
+}
+
+#node {
+  height: 100px;
+  width: 120px;
+}

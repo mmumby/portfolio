@@ -1,0 +1,15 @@
+.aboutme {
+  height: 500px;
+  max-height: 100%;
+}
+
+.frame {
+  height: 500px;
+  width: 500px;
+}
+
+.my-photo {
+  height: 300px;
+  width: 300px;
+  z-index: 1;
+}
