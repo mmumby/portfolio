@@ -4,7 +4,8 @@ img {
 }
 
 .skillstack {
-  background: white url("./img/laptop.jpg") no-repeat center center;
+  background-color: #e9e8e4;
+  /*background: white url("./img/bw.jpeg") no-repeat center center;*/
   background-attachment: fixed;
   background-size: cover;
   height: 300px;
@@ -22,7 +23,7 @@ img {
   list-style-type: none;
   overflow: hidden;
   position: absolute;
-  margin-top: 140px;
+  margin-top: 120px;
 }
 
 .skillstack a {
@@ -31,5 +32,5 @@ img {
 
 #node {
   height: 100px;
-  width: 120px;
+  width: 140px;
 }

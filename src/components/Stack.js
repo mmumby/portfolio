@@ -9,7 +9,7 @@ class Stack extends Component {
           <li><img src={require('../styles/img/github.png')} alt="Frame"/></li>
           <li><img src={require('../styles/img/JavaScript.png')} alt="Frame"/></li>
           <li><img src={require('../styles/img/jquery.png')} alt="Frame"/></li>
-          <li id="node"><img src={require('../styles/img/nodejs.png')} alt="Frame"/></li>
+          <li><img id="node" src={require('../styles/img/node.png')} alt="Frame"/></li>
           <li><img src={require('../styles/img/PostgreSQL.png')} alt="Frame"/></li>
           <li><img src={require('../styles/img/react.png')} alt="Frame"/></li>
           <li><img src={require('../styles/img/redux.png')} alt="Frame"/></li>

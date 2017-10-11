@@ -6,69 +6,32 @@
   width: 100%;
 }
 
-.contact-form h4 {
-    color: #668944;
-    margin-left: 20px;
-}
+.contact-message {
+  color: #223826;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 450px;
+  position: absolute;
+ }
 
-.contact-form label {
-    width: 100px;
-    margin: 5px 0;
-    display: inline-block;
-    vertical-align: top;
-  }
-.contact-form input, textarea, button {
-    margin: 5px 0;
-    padding: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #bbb;
-  }
-  .contact-form input.field, textarea {
-    min-width: 330px;
-  }
-  .contact-form input[name=subject], textarea {
-    width: 73%;
-  }
-  .contact-form textarea {
-    height: 150px;
-  }
-
-  .contact-form button {
-    border: 0;
-    background-color: #fff;
-    padding: 8px 20px;
-    color: #fff;
-    margin-top: 20px;
-
-    &:hover {
-      background-color: darken(#fff, 10%);
-      color: darken(#fff, 10%);
-    }
-  }
-
-.profilelinks {
-    text-align: center;
-    width:100%;
+ .profile-links {
+  margin-left: -40px;
  }
 
 .contact-icons li{
-  background-color: white;
  list-style: none;
   display: inline-block;
-  width: 35px;
-  height: 35px;
-  border: 2px solid white;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   text-align: center;
-  line-height: 47px;
-  color: black;
+  line-height: 64px;
+  color: white;
   margin: 0 0 5px 10px;
  }
 
 .contact-icons li:hover {
   cursor: pointer;
-  border: 2px solid black;
+  background-color: #eb994c;
 }
 

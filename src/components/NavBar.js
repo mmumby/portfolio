@@ -20,9 +20,9 @@ class NavBar extends Component {
             <p> Meredith Mumby </p>
           </div>
             <ul className="nav-list">
-              <li><a>About Me</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Contact</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#my-portfolio">Portfolio</a></li>
+              <li><a href="#contact-me">Contact</a></li>
             </ul>
           </div>
       </div>

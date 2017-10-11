@@ -3,12 +3,14 @@
   width: 100%;
   background-color: white;
   position: fixed;
+  z-index: 100;
 }
 
  #fixed-nav .nav-list {
   display: inline-block;
   float: right;
 }
+
 
 .fixed-nav {
   width: 100%;
@@ -24,8 +26,9 @@
   font-size: xx-large;
   margin-left: 30px;
   margin-top: -15px;
-  color: #81817f;
+  color: #223826;
   display: inline-block;
+  font-family: 'Dancing Script', cursive;
 }
 
  #fixed-nav li {
@@ -51,7 +54,11 @@
 }
 
  #fixed-nav a:hover {
-  background-color: grey;
-  border-radius: 15px;
-  color: white;
+  border: 3px solid gray;
+  cursor: pointer;
 }
+
+#fixed-nav a:active {
+  border: 3px solid gray;
+}
+
