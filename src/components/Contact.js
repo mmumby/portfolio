@@ -11,9 +11,9 @@ class Contact extends Component {
           <p> or, find me online! </p>
           <div className="profile-links">
             <ul class="contact-icons">
-              <li><i class="fa fa-2x fa-github" aria-hidden="true"></i></li>
-              <li><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></li>
-              <li><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></li>
+              <li><a href="https://github.com/mmumby"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/meredithmumby"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="mailto:meredith.mumby@outlook.com"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
