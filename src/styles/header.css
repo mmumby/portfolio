@@ -56,7 +56,8 @@
 }
 
 .header-nav li a:hover {
-  background-color: #eb994c;
+  border: 1px solid #eb994c;
+  background-color: white;
   border-radius: 5px;
-  color: white;
+  color: #eb994c;
 }

@@ -26,12 +26,13 @@
   border-radius: 100%;
   text-align: center;
   line-height: 64px;
-  color: white;
+  color: #eb994c;
   margin: 0 0 5px 10px;
  }
 
 .contact-icons li:hover {
   cursor: pointer;
   background-color: #eb994c;
+  color: white;
 }
 

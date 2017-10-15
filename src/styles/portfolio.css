@@ -1,4 +1,5 @@
 .portfolio {
+  display: flex;
   height: 100%;
 }
 
@@ -9,6 +10,7 @@
   margin-bottom: 50px;
   margin-left: 25%;
   border: 4px solid gray;
+  position: relative;
 }
 
 .portfolio li {
@@ -21,8 +23,28 @@
 }
 
 .portfolio-left {
-
+  display-direction: column;
 }
-.portfolio-right {
 
+.portfolio-right li {
+  display-direction: column;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.viewmore-portfolio {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  color: #eb994c;
+  border-radius: 5px;
+  border: 2px solid #eb994c;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.viewmore-portfolio:hover {
+  background-color: #eb994c;
+  color: white;
+  border-radius: 5px;
 }

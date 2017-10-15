@@ -8,7 +8,9 @@ class NavBar extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      this.setState({ isTop: window.scrollY < 690 })
+      this.setState({
+        isTop: window.scrollY < 690
+         })
     });
   }
 
